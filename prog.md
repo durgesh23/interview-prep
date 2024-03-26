@@ -169,7 +169,7 @@
             int i;
             for(i = 0; i< 3; i++)
             {
-                sum(); // The static variables holds their value between multiple function calls.
+                sum();
             }
         }
         ```
