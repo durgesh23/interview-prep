@@ -3,7 +3,7 @@
 ## Bit Operations
 1. Set a bit
 2. Clear a bit
-3.
+3. Toggle a bit
 
 ## Pipeling
 
@@ -65,7 +65,11 @@
 
 ## Architecture
 1. What is Von Neuman Machine?
+   The Von Neumann architecture consists of a single, shared memory for programs and data, a single bus for memory access, an arithmetic unit, and a program control unit.
+   ![Von Neumann architecture](./Von_Neumann.png)
 2. What is Harvard Architecture?
+   Harvard architecture refers to a memory structure in which the processor is connected to two independent memory banks via two independent sets of buses.
+   ![Harvard architecture](./Harvard.png)
 3. CISC vs RISC?
 4. What is Pipeling?
    1. Problems of executing multiple instructions at the same time?

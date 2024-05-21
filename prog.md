@@ -659,7 +659,12 @@
     ```
 3. What are setter and getter funtions?
 4. What are decorators?
-5.
+5. What is the difference between?
+    - instance method
+    - class method
+    - static method
+    [instancemethod vs classmethod vs staticmethod](https://realpython.com/instance-class-and-static-methods-demystified/)
+
 6. Mutable and immutable datatypes
     - mutable
         - list
@@ -708,9 +713,7 @@
                 - Lists are ideal for collections that may change in size and content. They are the preferred choice for storing data elements.
 
                 - Tuples, due to their immutability and enhanced performance, are a good choice for representing fixed sets of related data.
-
-
-6. Diff between is and ==
+9. Diff between is and ==
    **The difference between `is` and `==`**
     * `is` operator checks if both the operands refer to the same object (i.e., it checks if the identity of the operands matches or not).
     * `==` operator compares the values of both the operands and checks if they are the same.
@@ -720,21 +723,21 @@
     >>> A() is A() # These are two empty objects at two different memory locations.
     False
     ```
-7. What is lambda function?
-   - A function which doesn't contain any name is known as a anonymous function lambda function, Lambda function we can assign to the variable & we can call the lambda function through the variable.
+10. What is lambda function?
+    - A function which doesn't contain any name is known as a anonymous function lambda function, Lambda function we can assign to the variable & we can call the lambda function through the variable.
     - syntax
       - `Lambda arguments:expression`
     - Out
       - `(lambda a,b:a if a>b else b)(3,3.5)`
         - `3.5`
-8. Use of `with` keyword?
+11. Use of `with` keyword?
    1. In python generally "with" statement is used to open a file, process the data present in the file, and also to close the file without calling a close() method. "with" statement makes the exception handling simpler by providing cleanup activities.
    2. `with open("filename", "mode") as file-var:`
-9.  How will you remove last object from a list?
-   1. `list.pop(obj=list[-1])`
-10. What are Accessors, mutators, @property?
+12.  How will you remove last object from a list?
+     1. `list.pop(obj=list[-1])`
+13. What are Accessors, mutators, @property?
    Accessors and mutators are often called getters and setters in languages like "Java". For example, if x is a property of a user-defined class, then the class would have methods called setX() and getX(). Python has an @property 'decorator' that allows you to ad getters and setters in order to access the attribute of the class.
-11. Differentiate between append() and extend() methods.?
+14. Differentiate between append() and extend() methods.?
    Both append() and extend() methods are the methods of list. These methods are used to add the elements at the end of the list.
 
     - `append(element`) – adds the given element at the end of the list which has called this method.
